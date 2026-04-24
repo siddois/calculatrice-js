@@ -1,15 +1,16 @@
-function additionner(a, b) {
-return a + b;
+// Historique des opérations
+const historique = [];
+function ajouterAHistorique(operation, resultat) {
+const entree = {
+operation: operation,
+resultat: resultat,
+date: new Date().toLocaleString()
+};
+historique.push(entree);
 }
-function soustraire(a, b) {
-return a - b;
+function afficherHistorique() {
+console.log('=== Historique des calculs ===');
+historique.forEach((entree, index) => {
+});
 }
-function multiplier(a, b) {
-return a * b;
-}
-function diviser(a, b) {
-if (b === 0) { 
-throw new Error('Division par zéro impossible !');
-}
-return a / b;
-}
+console.log(`${index + 1}. ${entree.operation} = ${entree.resultat}`);
