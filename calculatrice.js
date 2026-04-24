@@ -13,3 +13,14 @@ throw new Error('Division par zéro impossible !');
 }
 return a / b;
 }
+
+function modulo(a, b) {
+    if (b === 0) {
+        throw new Error('Modulo par zéro impossible !');
+    }
+    return a % b;
+}
+
+
+
+
