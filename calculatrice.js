@@ -1,3 +1,4 @@
+ // Outil de calcul mathématique - Master 1 GL 2024
 function additionner(a, b) {
 return a + b;
 }
