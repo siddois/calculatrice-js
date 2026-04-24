@@ -1,5 +1,5 @@
-// Calculatrice Avancée v2.0 - Développée par l'équipe A
 
+// Calculatrice Avancée v2.0 - Master 1 GL 2024 - equipe A
 function additionner(a, b) {
 return a + b;
 }
@@ -33,5 +33,20 @@ return Math.sqrt(n);
 
 function puissance(base, exposant) {
 return Math.pow(base, exposant);
+
+// Historique des opérations
+const historique = [];
+function ajouterAHistorique(operation, resultat) {
+const entree = {
+operation: operation,
+resultat: resultat,
+date: new Date().toLocaleString()
+};
+historique.push(entree);
+}
+function afficherHistorique() {
+console.log('=== Historique des calculs ===');
+historique.forEach((entree, index) => {
+});
 }
 
