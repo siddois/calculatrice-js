@@ -1,4 +1,3 @@
-
 // Calculatrice Avancée v2.0 - Master 1 GL 2024 - equipe A
 function additionner(a, b) {
 return a + b;
@@ -34,6 +33,9 @@ return Math.sqrt(n);
 function puissance(base, exposant) {
 return Math.pow(base, exposant);
 
+ // Outil de calcul mathématique - Master 1 GL 2024
+function additionner(a, b) {
+return a + b;
 // Historique des opérations
 const historique = [];
 function ajouterAHistorique(operation, resultat) {
