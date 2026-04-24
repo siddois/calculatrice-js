@@ -21,4 +21,7 @@ throw new Error('Impossible : racine carrée d un nombre négatif !');
 return Math.sqrt(n);
 }
 
+function puissance(base, exposant) {
+return Math.pow(base, exposant);
+}
 
