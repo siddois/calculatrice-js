@@ -13,3 +13,8 @@ throw new Error('Division par zéro impossible !');
 }
 return a / b;
 }
+
+function puissance(base, exposant) {
+return Math.pow(base, exposant);
+}
+
