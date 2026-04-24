@@ -1,28 +1,22 @@
+<<<<<<< HEAD
  // Outil de calcul mathématique - Master 1 GL 2024
 function additionner(a, b) {
 return a + b;
+=======
+// Historique des opérations
+const historique = [];
+function ajouterAHistorique(operation, resultat) {
+const entree = {
+operation: operation,
+resultat: resultat,
+date: new Date().toLocaleString()
+};
+historique.push(entree);
+>>>>>>> a3e776f22610cc3e521b398455f503b635881542
 }
-function soustraire(a, b) {
-return a - b;
-}
-function multiplier(a, b) {
-return a * b;
-}
-function diviser(a, b) {
-if (b === 0) { 
-throw new Error('Division par zéro impossible !');
-}
-return a / b;
-}
-
-function racineCarree(n) {
-if (n < 0) {
-throw new Error('Impossible : racine carrée d un nombre négatif !');
-}
-return Math.sqrt(n);
-}
-
-function puissance(base, exposant) {
-return Math.pow(base, exposant);
+function afficherHistorique() {
+console.log('=== Historique des calculs ===');
+historique.forEach((entree, index) => {
+});
 }
 
