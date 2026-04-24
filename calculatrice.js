@@ -1,3 +1,5 @@
+// Calculatrice Avancée v2.0 - Développée par l'équipe A
+
 function additionner(a, b) {
 return a + b;
 }
