@@ -13,3 +13,12 @@ throw new Error('Division par zéro impossible !');
 }
 return a / b;
 }
+
+function racineCarree(n) {
+if (n < 0) {
+throw new Error('Impossible : racine carrée d un nombre négatif !');
+}
+return Math.sqrt(n);
+}
+
+
