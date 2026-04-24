@@ -13,4 +13,4 @@ console.log('=== Historique des calculs ===');
 historique.forEach((entree, index) => {
 });
 }
-console.log(`${index + 1}. ${entree.operation} = ${entree.resultat}`);
+
